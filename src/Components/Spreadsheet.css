@@ -1,0 +1,203 @@
+.container {
+  max-width: 95%;
+  margin: 20px auto;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3.text-center {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #202124;
+}
+
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.toolbar > * {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.color-picker {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.spreadsheet-container {
+  overflow-x: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+
+.spreadsheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+
+.spreadsheet-cell {
+  border: 1px solid #e0e0e0;
+  padding: 0;
+  position: relative;
+}
+
+
+.spreadsheet-input {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border: none;
+  font-size: 14px;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: #202124;
+}
+
+
+.spreadsheet-input:focus {
+  outline: none;
+  background-color: #e8f0fe;
+}
+
+
+.btn-outline-dark {
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  background-color: #fff;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #f1f3f4;
+  border-color: #c6c9ce;
+}
+
+
+.dropdown-item {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f3f4;
+}
+
+.container {
+  max-width: 95%;
+  margin: 20px auto;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h3.text-center {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #202124;
+}
+
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.toolbar > * {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.color-picker {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.spreadsheet-container {
+  overflow-x: auto;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+
+.spreadsheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid #ccc; 
+}
+
+
+.spreadsheet-cell {
+  border: 1px solid #ccc; 
+  padding: 0;
+  position: relative;
+}
+
+
+.spreadsheet-input {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border: none;
+  font-size: 14px;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: #202124;
+}
+
+
+.spreadsheet-input:focus {
+  outline: none;
+  background-color: #e8f0fe;
+}
+
+
+.btn-outline-dark {
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  background-color: #fff;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #f1f3f4;
+  border-color: #c6c9ce;
+}
+
+
+.dropdown-item {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f3f4;
+}
